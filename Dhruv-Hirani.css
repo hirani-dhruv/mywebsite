@@ -17,6 +17,7 @@
   height: 499px;
   object-position: 40.2% 100%;
   background-image: url("images/_DSC0202-removebg-preview.....png");
+  background-position: 39.28% 50%;
   margin: 57px auto 0 50px;
 }
 
@@ -203,13 +204,13 @@
   }
 
   .u-section-1 .u-text-7 {
-    margin: 13px -50px 30px 50px;
+    margin: 13px -50px 31px 50px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1069px;
+    min-height: 1108px;
   }
 
   .u-section-1 .u-text-1 {
@@ -253,7 +254,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1333px;
+    min-height: 1372px;
   }
 
   .u-section-1 .u-text-1 {
@@ -263,7 +264,6 @@
   .u-section-1 .u-image-1 {
     width: 340px;
     height: 340px;
-    background-position: 50% 50%;
     margin-right: 0;
     margin-left: auto;
   }
@@ -971,7 +971,6 @@
 .u-section-5 .u-slider-1 {
   min-height: 413px;
   width: 893px;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -1084,6 +1083,12 @@
 .u-section-5 .u-carousel-control-2 {
   width: 55px;
   height: 55px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-5 .u-slider-1 {
+    height: auto;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1485,6 +1490,5 @@
     margin-top: 1px;
     margin-right: 0;
     margin-left: 10px;
-    width: auto;
   }
 }
